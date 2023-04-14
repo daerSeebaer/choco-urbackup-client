@@ -1,24 +1,29 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>urbackup-client</id>
     <version>2.5.23</version>
-    <title>UrBackup-Client (Install))</title>
+    <packageSourceUrl>https://github.com/daerSeebaer/choco-urbackup-client/</packageSourceUrl>
+    <owners>Sebastian Dallinger</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>UrBackup-Client (Install)</title>
     <authors>Martin Raiber</authors>
-    <owners>Martin Raiber</owners>
-    <projectUrl>http://www.urbackup.org/</projectUrl>
+    <projectUrl>https://www.urbackup.org/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.urbackup.org/documentation.html</docsUrl>
+    <tags>urbackup-client admin backup</tags>
     <description>UrBackup is an easy to setup Open Source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time.
 
-File and image backups are made while the system is running without interrupting current processes.
-
-UrBackup also continuously watches folders you want backed up in order to quickly find differences to previous backups. Because of that, incremental file backups are really fast.
-
-Your files can be restored through the web interface, via the client or the Windows Explorer while the backups of drive volumes can be restored with a bootable CD or USB-Stick (bare metal restore).
-
-A web interface makes setting up your own backup server really easy. For a quick impression please look at the screenshots here.
-
-Currently there are over 8300 running UrBackup server instances (with auto-update enabled) with some instances having hundreds of active clients.</description>
-    <tags>urbackup-client admin backup</tags>
+      File and image backups are made while the system is running without interrupting current processes.
+      
+      UrBackup also continuously watches folders you want backed up in order to quickly find differences to previous backups. Because of that, incremental file backups are really fast.
+      
+      Your files can be restored through the web interface, via the client or the Windows Explorer while the backups of drive volumes can be restored with a bootable CD or USB-Stick (bare metal restore).
+      
+      A web interface makes setting up your own backup server really easy. For a quick impression please look at the screenshots here.
+      
+      Currently there are over 8300 running UrBackup server instances (with auto-update enabled) with some instances having hundreds of active clients.</description>
+    <releaseNotes>https://www.urbackup.org/client_changelog.html</releaseNotes>
   </metadata>
 </package>
