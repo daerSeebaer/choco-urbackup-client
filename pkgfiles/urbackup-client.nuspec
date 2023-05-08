@@ -10,6 +10,7 @@
     <title>UrBackup-Client (Install)</title>
     <authors>Martin Raiber</authors>
     <projectUrl>https://www.urbackup.org/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/daerSeebaer/choco-urbackup-server/e60906ca1f204b7194c5efe541a5ad0c610f11a2/UrBackup_icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.urbackup.org/documentation.html</docsUrl>
     <tags>urbackup-client admin backup</tags>
