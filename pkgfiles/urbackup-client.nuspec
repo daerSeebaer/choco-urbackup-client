@@ -26,7 +26,15 @@ Your files can be restored through the web interface, via the client or the Wind
 
 A web interface makes setting up your own backup server really easy. For a quick impression please look at the [screenshots here](https://www.urbackup.org/impressions.html).
 
-Currently there are over 21,000 running UrBackup server instances (with auto-update enabled) with some instances having hundreds of active clients.</description>
+Currently there are over 21,000 running UrBackup server instances (with auto-update enabled) with some instances having hundreds of active clients.
+
+### Installation with Tray Icon
+
+By default, the client version without tray icon will be installed. To choose the version with tray icon, pass the package parameter `/TrayIcon` during install:
+
+`choco install urbackup-client [other options] --params="'/TrayIcon'"`
+
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.</description>
     <releaseNotes>https://www.urbackup.org/client_changelog.html</releaseNotes>
   </metadata>
 </package>
