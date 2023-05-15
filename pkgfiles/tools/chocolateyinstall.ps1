@@ -8,8 +8,6 @@ $pp = Get-PackageParameters
 # default to False
 if (!$pp.TrayIcon){ 
 	$pp.TrayIcon = 'False'
-  $UrExe = 'https://hndl.urbackup.org/Client/2.5.24/UrBackup%20Client%20NoTray%202.5.24.exe'
-	$ChkSum = '20A450644392245F456D0A22A73D460E17D8EE7C4DFD1DAD8D084BD6F58525CB'
 }
 if ($pp.TrayIcon -eq 'False'){
 	$UrExe = 'https://hndl.urbackup.org/Client/2.5.24/UrBackup%20Client%20NoTray%202.5.24.exe'
