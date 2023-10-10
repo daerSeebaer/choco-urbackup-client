@@ -10,12 +10,12 @@ if (!$pp.TrayIcon){
 	$pp.TrayIcon = 'False'
 }
 if ($pp.TrayIcon -eq 'False'){
-	$UrExe = 'https://hndl.urbackup.org/Client/2.5.24/UrBackup%20Client%20NoTray%202.5.24.exe'
-	$ChkSum = '20A450644392245F456D0A22A73D460E17D8EE7C4DFD1DAD8D084BD6F58525CB'
+	$UrExe = 'https://hndl.urbackup.org/Client/2.5.25/UrBackup%20Client%20NoTray%202.5.25.exe'
+	$ChkSum = 'E9CCB9E97E5EA55BBF291DAC6AB830DE4E5119A36B27D49DCBEBA83CDF2EFE1E'
 }
 if ($pp.TrayIcon -eq 'True'){
-	$UrExe = 'https://hndl.urbackup.org/Client/2.5.24/UrBackup%20Client%202.5.24.exe'
-	$ChkSum = '58E64B68B807BF467548A79774D01E50A42F7F712B3278C92C0EBDFC93A1A8C8'
+	$UrExe = 'https://hndl.urbackup.org/Client/2.5.25/UrBackup%20Client%202.5.25.exe'
+	$ChkSum = '5FDE17E13F77FCCCCF40706E07271EBA36567F221684C648A4D015734A4CA475'
 }
 
 #Based on Nsis
